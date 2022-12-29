@@ -1,0 +1,64 @@
+﻿building_has_hunting_ground = {
+	building_group = bg_has_hunting_ground
+	texture = "gfx/building_hunting_grounds.dds"
+	city_type = none
+	levels_per_mesh = 5
+	terrain_manipulator = mining
+
+	buildable = no
+	expandable = no									# can this building be expanded? default yes
+	downsizeable = no								# can this building be downsized? default yes
+	
+	production_method_groups = {
+		pmg_has_hunting_ground_base
+		pmg_has_hunting_ground_containment
+		pmg_has_hunting_ground_hunters
+		pmg_has_hunting_ground_extract
+	}
+
+}
+
+building_has_hunters_association = {
+
+	building_group = bg_has_hunters_association
+
+	city_type = city
+
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		academia
+	}
+
+	production_method_groups = {
+		pmg_has_hunters_association_bounties
+		pmg_has_hunters_association_ownership
+	}
+
+	texture = "gfx/interface/icons/building_icons/building_university.dds"
+
+	required_construction = construction_cost_high
+}
+
+building_has_hunters_asylum = {
+
+	building_group = bg_has_hunters_association
+
+	city_type = city
+
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		academia
+	}
+
+	production_method_groups = {
+		pmg_has_hunters_asylum_hunter_creation
+		pmg_has_hunters_asylum_equipment
+		pmg_has_hunters_association_ownership
+	}
+
+	texture = "gfx/interface/icons/building_icons/building_arts_academy.dds"
+
+	required_construction = construction_cost_medium
+}

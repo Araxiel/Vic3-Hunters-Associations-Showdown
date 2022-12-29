@@ -1,0 +1,77 @@
+﻿pmg_has_hunting_ground_base = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		pm_has_hunting_ground_base
+	}
+}
+
+pmg_has_hunting_ground_containment = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_military.dds"
+
+	production_methods = {
+		pm_has_hunting_ground_ignored
+		pm_has_hunting_ground_containment
+		pm_has_hunting_ground_eradication
+		pm_has_hunting_ground_seeding
+	}
+}
+
+pmg_has_hunting_ground_hunters = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+
+	production_methods = {
+		pm_has_hunting_ground_hunters_none
+		pm_has_hunting_ground_hunters_few
+		pm_has_hunting_ground_hunters_many
+	}
+}
+
+pmg_has_hunting_ground_extract = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+
+	production_methods = {
+		pm_has_hunting_ground_extract_foot
+		pm_has_hunting_ground_extract_basic
+		pm_has_hunting_ground_extract_improved
+		pm_has_hunting_ground_extract_advanced
+	}
+}
+
+pmg_has_hunters_asylum_hunter_creation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_has_hunter_creation_basic
+		pm_has_hunter_creation_advanced
+	}
+}
+
+pmg_has_hunters_asylum_equipment = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+
+	production_methods = {
+		pm_has_hunter_equipment_basic
+		pm_has_hunter_equipment_advanced
+	}
+}
+
+pmg_has_hunters_association_bounties = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+
+	production_methods = {
+		pm_has_bounties_refining_service
+		pm_has_bounties_refining_invention
+	}
+}
+
+pmg_has_hunters_association_ownership = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	ai_selection = most_productive
+	production_methods = {
+		pm_guild_owned_hunters_association
+		pm_cult_owned_hunters_association
+		pm_government_run_hunters_association
+	}
+}

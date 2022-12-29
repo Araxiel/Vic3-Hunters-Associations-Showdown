@@ -1,0 +1,29 @@
+texticon = {
+	icon = banishmentBounties
+	iconsize = {
+		texture = "gfx/goods/bonecharm.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = associationHunters
+	iconsize = {
+		texture = "gfx/goods/ahahunter.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = darkKnowledge
+	iconsize = {
+	texture = "gfx/goods/darkKnowledge.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}

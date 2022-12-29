@@ -1,0 +1,24 @@
+﻿building_input_associationHunters_add = {
+	good = no
+	percent = no
+}
+
+building_output_associationHunters_add = {
+	good = yes
+	percent = no
+}
+
+building_input_banishmentBounties_add = {
+	good = no
+	percent = no
+}
+
+building_output_banishmentBounties_add = {
+	good = yes
+	percent = no
+}
+
+building_input_luxury_clothes_add = {
+	good = no
+	percent = no
+}
