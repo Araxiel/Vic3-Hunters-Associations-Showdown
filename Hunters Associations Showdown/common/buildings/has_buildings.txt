@@ -1,9 +1,13 @@
 ﻿building_has_hunting_ground = {
 	building_group = bg_has_hunting_ground
-	texture = "gfx/building_hunting_grounds.dds"
+	texture = "gfx/buildings/Hunting_Grounds.dds"
 	city_type = none
 	levels_per_mesh = 5
 	terrain_manipulator = mining
+
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_3x3_entity" }
+	entity_constructed = { "generic_rural_mining_pile_01_entity"}
 
 	buildable = no
 	expandable = no									# can this building be expanded? default yes
@@ -20,6 +24,10 @@
 
 building_has_hunters_association = {
 
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_3x3_entity" }
+	entity_constructed = { "european_city_university_01_entity"}
+
 	building_group = bg_has_hunters_association
 
 	city_type = city
@@ -35,12 +43,16 @@ building_has_hunters_association = {
 		pmg_has_hunters_association_ownership
 	}
 
-	texture = "gfx/interface/icons/building_icons/building_university.dds"
+	texture = "gfx/buildings/Hunters_Association.dds"
 
 	required_construction = construction_cost_high
 }
 
 building_has_hunters_asylum = {
+
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_3x3_entity" }
+	entity_constructed = { "european_city_art_academy_01_entity"}
 
 	building_group = bg_has_hunters_association
 
@@ -58,7 +70,7 @@ building_has_hunters_asylum = {
 		pmg_has_hunters_association_ownership
 	}
 
-	texture = "gfx/interface/icons/building_icons/building_arts_academy.dds"
+	texture = "gfx/buildings/Hunters_Aslyum.dds"
 
 	required_construction = construction_cost_medium
 }

@@ -1,29 +1,30 @@
 ﻿
 banishmentBounties = {
-	texture = "gfx/goods/bonecharm.dds"
-	cost = 150
+	texture = "gfx/goods/Bonecharm.dds"
+	cost = 50
 	category = luxury
 	
+	traded_quantity = 5
 	obsession_chance = 1.0
-	prestige_factor = 10
+	prestige_factor = 5
 }
 
 associationHunters = {
-	texture = "gfx/goods/ahahunter.dds"
-	cost = 350
+	texture = "gfx/goods/AhaHunter.dds"
+	cost = 150
 	category = military
 	
-	prestige_factor = 5
-	traded_quantity = 1
+	prestige_factor = 2
+	traded_quantity = 5
 	convoy_cost_multiplier = 0.1
 }
 
 darkKnowledge = {
-	texture = "gfx/goods/darkKnowledge.dds"
-	cost = 100
+	texture = "gfx/goods/DarkKnowledge.dds"
+	cost = 200
 	category = luxury
 	
 	tradeable = no
 	fixed_price = yes
-	prestige_factor = 15
+	prestige_factor = 5
 }

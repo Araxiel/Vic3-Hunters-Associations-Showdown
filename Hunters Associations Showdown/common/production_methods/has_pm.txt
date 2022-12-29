@@ -27,6 +27,7 @@ pm_has_hunting_ground_ignored = {
 		}
 		unscaled = {
 			building_subsistence_output_add = 5
+			building_laborers_mortality_mult = 0.3
 		}
 	}
 
@@ -40,10 +41,10 @@ pm_has_hunting_ground_containment = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			building_input_tools_add = 0.5
-			building_input_wood_add = 0.5
-			building_input_small_arms_add = 0.5
-			building_input_ammunition_add = 0.5
+			building_input_tools_add = 1
+			building_input_wood_add = 1
+			building_input_small_arms_add = 1
+			building_input_ammunition_add = 1
 		}
 
 		level_scaled = {
@@ -72,11 +73,11 @@ pm_has_hunting_ground_eradication = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			building_input_tools_add = 0.5
-			building_input_small_arms_add = 0.5
+			building_input_tools_add = 1
+			building_input_small_arms_add = 1
 			building_input_ammunition_add = 1
-			building_input_artillery_add = 0.25
-			building_input_explosives_add = 0.25
+			building_input_artillery_add = 1
+			building_input_explosives_add = 1
 		}
 
 		level_scaled = {
@@ -110,8 +111,8 @@ pm_has_hunting_ground_seeding = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			building_input_tools_add = 0.5
-			building_input_small_arms_add = 0.5
+			building_input_tools_add = 1
+			building_input_small_arms_add = 1
 			building_input_fertilizer_add = 1
 			building_input_banishmentBounties_add = 2
 		}
@@ -143,7 +144,7 @@ pm_has_hunting_ground_hunters_none = {
 	building_modifiers = {
 		workforce_scaled = {
 			# output goods
-			building_output_banishmentBounties_add = 0.1
+			building_output_banishmentBounties_add = 1
 		}
 	}
 }
@@ -155,10 +156,10 @@ pm_has_hunting_ground_hunters_few = {
 		workforce_scaled = {
 
 			# input goods
-			building_input_associationHunters_add = 1.5
+			building_input_associationHunters_add = 4
 
 			# output goods
-			building_output_banishmentBounties_add = 1
+			building_output_banishmentBounties_add = 7
 		}
 
 		level_scaled = {
@@ -179,10 +180,10 @@ pm_has_hunting_ground_hunters_many = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			building_input_associationHunters_add = 3
+			building_input_associationHunters_add = 8
 
 			# output goods
-			building_output_banishmentBounties_add = 2
+			building_output_banishmentBounties_add = 15
 		}
 
 		level_scaled = {
@@ -198,7 +199,7 @@ pm_has_hunting_ground_hunters_many = {
 }
 
 pm_has_hunting_ground_extract_foot = {
-	texture = "gfx/pm_has_hunting_ground_extract_foot.dds"
+	texture = "gfx/production/pm_has_hunting_ground_extract_foot.dds"
 
 }
 
@@ -208,12 +209,12 @@ pm_has_hunting_ground_extract_basic = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			building_input_tools_add = 0.5
-			building_input_wood_add = 0.5
-			building_input_clippers_add = 0.5
+			building_input_tools_add = 1
+			building_input_wood_add = 1
+			building_input_clippers_add = 1
 
 			# input reduction
-			building_input_associationHunters_add = -0.25
+			building_input_associationHunters_add = -2
 		}
 
 		level_scaled = {
@@ -237,13 +238,13 @@ pm_has_hunting_ground_extract_improved = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			building_input_tools_add = 0.5
-			building_input_iron_add = 0.5
+			building_input_tools_add = 1
+			building_input_iron_add = 1
 			building_input_engines_add = 1
-			building_input_ironclads_add = 0.25
+			building_input_ironclads_add = 0.5
 
 			# input reduction
-			building_input_associationHunters_add = -0.75
+			building_input_associationHunters_add = -4
 		}
 
 		level_scaled = {
@@ -269,13 +270,13 @@ pm_has_hunting_ground_extract_advanced = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			building_input_tools_add = 0.5
-			building_input_engines_add = 1.5
+			building_input_tools_add = 1
+			building_input_engines_add = 1
 			building_output_automobiles_add = 1
-			building_input_ironclads_add = 0.5
+			building_input_ironclads_add = 1
 
 			# input reduction
-			building_input_associationHunters_add = -1.75
+			building_input_associationHunters_add = -6
 		}
 
 		level_scaled = {
@@ -313,7 +314,8 @@ pm_has_hunter_creation_basic = {
 			building_input_opium_add = 1
 
 			# output goods
-			building_output_associationHunters_add = 1
+			building_output_associationHunters_add = 4
+			building_output_darkKnowledge_add = 3
 		}
 
 		level_scaled = {
@@ -327,7 +329,6 @@ pm_has_hunter_creation_basic = {
 	}
 
 }
-
 pm_has_hunter_creation_advanced = {
 	texture = "gfx/interface/icons/production_method_icons/skirmish_infantry.dds"
 	pollution_generation = 5
@@ -345,9 +346,11 @@ pm_has_hunter_creation_advanced = {
 			building_input_fertilizer_add = 1
 			building_input_electricity_add = 2
 			building_input_engines_add = 1
+			building_input_engines_add = 1
 
 			# output goods
-			building_output_associationHunters_add = 3
+			building_output_associationHunters_add = 9
+			building_output_darkKnowledge_add = 3
 		}
 
 		level_scaled = {
@@ -377,12 +380,11 @@ pm_has_hunter_equipment_basic = {
 			building_input_small_arms_add = 1
 			
 			# output goods
-			building_output_associationHunters_add = 1
+			building_output_associationHunters_add = 3
 		}
 	}
 
 }
-
 pm_has_hunter_equipment_advanced = {
 	texture = "gfx/interface/icons/production_method_icons/unused/guns.dds"
 	pollution_generation = 5
@@ -396,7 +398,7 @@ pm_has_hunter_equipment_advanced = {
 			building_input_explosives_add = 1
 
 			# output goods
-			building_output_associationHunters_add = 2.5
+			building_output_associationHunters_add = 7
 		}
 	}
 
@@ -413,8 +415,8 @@ pm_has_bounties_refining_service = {
 			building_input_banishmentBounties_add = 1
 
 			# output goods
-			building_output_fine_art_add = 10 # 1600
-			building_output_services_add = 15 # 300
+			building_output_fine_art_add = 5 # 1600
+			building_output_services_add = 10 # 300
 		}
 		level_scaled = {
 			building_employment_clerks_add = 200
@@ -434,11 +436,12 @@ pm_has_bounties_refining_invention = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			building_input_banishmentBounties_add = 2
+			building_input_banishmentBounties_add = 3
 
 			# output goods
-			building_output_fine_art_add = 8 # 1600
-			building_output_services_add = 10 # 300
+			building_output_fine_art_add = 3 # 1600
+			building_output_services_add = 5 # 300
+			building_output_darkKnowledge_add = 2
 		}
 		level_scaled = {
 			building_employment_clerks_add = 100
@@ -447,9 +450,14 @@ pm_has_bounties_refining_invention = {
 		}
 	}
 
+	state_modifiers = {
+		workforce_scaled = {
+		}
+	}
+
 	country_modifiers = {
 		workforce_scaled = { 
-			country_weekly_innovation_add = 8
+			country_weekly_innovation_add = 5
 		}
 	}
 }

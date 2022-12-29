@@ -45,7 +45,7 @@ has_hg.1 = { # debug spawn hunting ground in brazil
 			create_building = {
 				building="building_has_hunters_association"
 				level=1
-				reserves=0
+				reserves=1
 			}
 			create_building = {
 				building="building_has_hunters_asylum"
@@ -82,7 +82,7 @@ has_hg.2 = { # debug spawn hunting grounds around world
 
 		random_state = {
 			limit = {
-				state_population <= 750000
+				state_population <= 1250000
 			}
 			save_scope_as = hg_state_1
 		}
@@ -95,7 +95,7 @@ has_hg.2 = { # debug spawn hunting grounds around world
 
 		random_state = {
 			limit = {
-				state_population <= 750000
+				state_population <= 1250000
 			}
 			save_scope_as = hg_state_2
 		}
@@ -109,7 +109,7 @@ has_hg.2 = { # debug spawn hunting grounds around world
 
 		random_state = {
 			limit = {
-				state_population <= 750000
+				state_population <= 1250000
 			}
 			save_scope_as = hg_state_3
 		}
@@ -123,7 +123,7 @@ has_hg.2 = { # debug spawn hunting grounds around world
 
 		random_state = {
 			limit = {
-				state_population <= 750000
+				state_population <= 1250000
 			}
 			save_scope_as = hg_state_4
 		}
@@ -137,7 +137,7 @@ has_hg.2 = { # debug spawn hunting grounds around world
 
 		random_state = {
 			limit = {
-				state_population <= 750000
+				state_population <= 1250000
 			}
 			save_scope_as = hg_state_5
 		}
@@ -151,7 +151,7 @@ has_hg.2 = { # debug spawn hunting grounds around world
 
 		random_state = {
 			limit = {
-				state_population <= 750000
+				state_population <= 1250000
 			}
 			save_scope_as = hg_state_6
 		}
@@ -165,7 +165,7 @@ has_hg.2 = { # debug spawn hunting grounds around world
 
 		random_state = {
 			limit = {
-				state_population <= 750000
+				state_population <= 1250000
 			}
 			save_scope_as = hg_state_7
 		}
@@ -179,7 +179,7 @@ has_hg.2 = { # debug spawn hunting grounds around world
 
 		random_state = {
 			limit = {
-				state_population <= 750000
+				state_population <= 1250000
 			}
 			save_scope_as = hg_state_8
 		}
@@ -193,7 +193,7 @@ has_hg.2 = { # debug spawn hunting grounds around world
 
 		random_state = {
 			limit = {
-				state_population <= 750000
+				state_population <= 1250000
 			}
 			save_scope_as = hg_state_9
 		}
@@ -207,7 +207,7 @@ has_hg.2 = { # debug spawn hunting grounds around world
 
 		random_state = {
 			limit = {
-				state_population <= 750000
+				state_population <= 1250000
 			}
 			save_scope_as = hg_state_10
 		}

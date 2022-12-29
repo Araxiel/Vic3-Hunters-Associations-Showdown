@@ -9,6 +9,8 @@
   associationHunters_desc: "Humans enhanced, or one might say infected, by the Hunters Association through the darksight ritual, giving them super-human abilities and resilience, and allowing them to hunt the dark and twisted creatures found in the $building_has_hunting_ground$s."
   banishmentBounties: "Ritual Bounties"
   banishmentBounties_desc: "Banished bounties extracted from $building_has_hunting_ground$s by $associationHunters$, used in dark rituals or sold to collectors."
+  darkKnowledge: "Dark Knowledge"
+  darkKnowledge_desc: "Forbidden knowledge, representing dark money paying to keep occult experiments running."
 
   modifier_building_input_associationHunters_add: "@associationHunters! $associationHunters$ input per level"
   modifier_building_input_associationHunters_add_desc: "The amount of @associationHunters! $associationHunters$ consumed by buildings"
@@ -18,6 +20,10 @@
   modifier_building_input_banishmentBounties_add_desc: "The amount of @banishmentBounties! $banishmentBounties$ consumed by buildings"
   modifier_building_output_banishmentBounties_add: "@banishmentBounties! $banishmentBounties$ output per level"
   modifier_building_output_banishmentBounties_add_desc: "The amount of @banishmentBounties! $banishmentBounties$ produced by buildings"
+  modifier_building_input_darkKnowledge_add: "@darkKnowledge! $darkKnowledge$ input per level"
+  modifier_building_input_darkKnowledge_add_desc: "The amount of @darkKnowledge! $darkKnowledge$ consumed by buildings"
+  modifier_building_output_darkKnowledge_add: "@darkKnowledge! $darkKnowledge$ output per level"
+  modifier_building_output_darkKnowledge_add_desc: "The amount of @darkKnowledge! $darkKnowledge$ produced by buildings"
   modifier_building_input_luxury_clothes_add: "@luxury_clothes! Luxury Clothes input per level"
   modifier_building_input_luxury_clothes_add_desc: "The amount of @luxury_clothes! Luxury Clothes consumed by buildings"
 
@@ -55,7 +61,7 @@
 # debug events
   has_hg.1.t: "Debug Spawn Buildings in US"
   has_hg.1.d: "Spawn a couple of buildings in the US to test"
-  has_hg.1.a: "Louisiana Hunting Ground, Arkansas AHA"
+  has_hg.1.a: "Louisiana Hunting Ground, New York AHA"
   has_hg.2.t: "Debug Hunting Grounds Across World"
   has_hg.2.d: "Spawn 10 hunting grounds across the world in <750k states"
   has_hg.2.a: "Spawn em"
